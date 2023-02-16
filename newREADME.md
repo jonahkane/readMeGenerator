@@ -1,9 +1,10 @@
-# Professional ReadMe Generator - Jonah
+# 1
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   *****somehow need to get the license badge to appear here
   ## Description 
 
- This file is to be used in order to generate a readme.md file for any and all projects remaining in the bootcamp program
+ 2
  
   ## Table of contents 
 
@@ -15,23 +16,24 @@
   - [Questions](#questions)
   
   ## Installation
-  need to run npm i prior to utilizing the app
+  3
 
   ## Usage
-  free to use, use at your own discrition.
+  4
+
+  ## Contribute 
+  5
+
+  ## Tests 
+  6
 
   ## License 
   MIT License
+  (https://opensource.org/licenses/MIT)
   - Please refer to the license information in the repo if applicable.
 
-  ## Contributing individuals 
-  to contribute, please clone the repo to your local machine adn make changes as you see fit.
-
-  ## Tests 
-  use npm run test
-
   ## Questions
-  If you have questions on this project you can find me on Github at https://github.com/jonahkane
-  or please feel free to email me at jonahtkane@gmail.com
+  If you have questions on this project you can find me on Github at https://github.com/7
+  or please feel free to email me at 8
 
   
