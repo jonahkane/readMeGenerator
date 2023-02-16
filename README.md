@@ -1,35 +1,40 @@
-# README.md Generator
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+#Read Me Generator
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-This generator will be utilized to create a professional looking readme.md file when creating new repos
+This app will prompt the user for inputs and then will take that data and display it in a professional looking readme.md file
 
 ## Table of contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribute](#contribute)
+- [Contributions](#contributions)
 - [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
 
 ## Installation
 
-install with npm i command
+Yes. The user must install the inquirer package with the following command: npm i
 
 ## Usage
 
-launch the generator with the node index.js command and follow the prompts. at the end, check the generated read me file and add any necessary images or videos in the applicable spaces
+The uswer will first launch this app by opening within their CLI terminal. after installing the inquirer package they will initialize the app by running node index.js. the application will then ask the user a few questions that are free form entry. the uswer will also be asked which license they want to attach to their project. this input will display a list of options that the user will be able to select by pressing the arrow keys on their keyboard.
 
-## Contribute
+---
 
-this is a demo only, no additional contributions necessary
+here is a great place for you to upload screen shots or even a screen record of your application. But remember to delete this line of text first
+
+---
+
+## Contributions
+
+No official contributors were used in this project. However, numerous resources were used. These resources include but are not limited to: UofM bootcamp instructional staff including TA office hours, tutor sessions, questions of other students within the program, as well as other resources such as google, W3Schools, StackOver flow.
 
 ## Tests
 
-npm run test
+No test is required, however npm run is a good option
 
 ## License
 
@@ -37,9 +42,7 @@ MIT License
 (https://opensource.org/licenses/MIT)
 A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-- Please refer to the license information in the repo if applicable.
-
 ## Questions
 
-If you have questions on this project you can find me on Github at https://github.com/jonahkane
-or please feel free to email me at jonahtkane@gmail.com
+If you have questions on this project you can find me on Github at https://github.com/JonahKane
+or please feel free to email me at JonahTKane@gmail.com

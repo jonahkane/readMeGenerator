@@ -126,7 +126,8 @@ const license = `${data.license}`;
   //here is where we truly start to generate the read me document.  the hash tags, pound signs, or octothropes are headers for the document.  
   // one hashtag by itself is used for the title - similar to an H1 tag in HTML
   // two consecutive hashtags are sub headings within the document, similar to an H2, H3 etc.
-return `#${data.title}
+return `# ${data.title}
+\n
 ${renderLicenseBadge(license)}
 ## Description
 ${data.description}
