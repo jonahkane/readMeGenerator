@@ -25,16 +25,7 @@ const questions = [{
     message: "What does the user need to know about using the repository?",
     name: "usage"
 },
-{
-    type: "input",
-    message: "What does the user need to know about contributing to the repository?",
-    name: "contribute"
-},
-{
-    type:'input',
-    message: "What command should be run to run tests? For example: npm run test",
-    name: "tests"
-},
+
 {
     type:'list',
     message: "Which license do you want your project to have?",
@@ -47,6 +38,16 @@ const questions = [{
         "Eclipse Public License 2.0",
         "The Unlicense",
     ]
+},
+{
+    type: "input",
+    message: "What does the user need to know about contributing to the repository?",
+    name: "contribute"
+}
+{
+    type:'input',
+    message: "What command should be run to run tests? For example: npm run test",
+    name: "tests"
 },
 {
     type:'input',
