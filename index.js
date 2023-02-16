@@ -43,7 +43,7 @@ const questions = [{
     type: "input",
     message: "What does the user need to know about contributing to the repository?",
     name: "contribute"
-}
+},
 {
     type:'input',
     message: "What command should be run to run tests? For example: npm run test",
