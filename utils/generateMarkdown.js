@@ -121,22 +121,17 @@ function renderLicenseSection(license) {
 
 }
 
-  const license = `${data.license}`;
+const license = `${data.license}`;
 
   //here is where we truly start to generate the read me document.  the hash tags, pound signs, or octothropes are headers for the document.  
   // one hashtag by itself is used for the title - similar to an H1 tag in HTML
   // two consecutive hashtags are sub headings within the document, similar to an H2, H3 etc.
-  return `# ${data.title}`
-// i wanted the license badge to be at the top of the page for easy visibility
-`${renderLicenseBadge(license)}
-  ## Description` 
-//here we are creating a sub heading of discription and then will import the data entered by the user in the initial prompts
-` ${data.description}
+return `#${data.title}
+${renderLicenseBadge(license)}
+## Description
+${data.description}
  
-  ## Table of contents` 
-// the table of contents is optional in most applications but it was required for this project.  each item within the table of contents is clickable
-//upon clicking, it will scroll to that section of the page for easy viewing
-  `
+## Table of contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributions](#contributions)
@@ -144,45 +139,30 @@ function renderLicenseSection(license) {
   - [License](#license)
   - [Questions](#questions)
   
-  ## Installation`
-  
-  //instructions that are entered by the user will display here when generated
-  `${data.installation}
+## Installation
+${data.installation}
 
-  ## Usage`
+## Usage
+${data.usage} \n
+---------------------------------------------------------------------------------------------------------------------------------------------------
+\n
+here is a great place for you to upload screen shots or even a screen record of your application.  But remember to delete this line of text first
+\n
+---------------------------------------------------------------------------------------------------------------------------------------------------
+## Contributions 
+${data.contributions}
+## Tests 
+${data.tests}
+## License 
+${data.license}
+${renderLicenseLink(license)}
+${renderLicenseSection(license)}
 
-  
-  //instructions on how to use the app, entered by the user, will display here.  i have also added a few lines of text and symbols here to draw attention to the user
-  // this is where screen shots and any sort of screen recording video should be entered into the finished read me file.
-`${data.usage} \n
-  ******************************************
-  \n
-  here is a great place for you to upload screen shots or even a screen record of your application.  But remember to delete this line of text first
-  \n
-  ******************************************
-`
-// section for users entry of any additional contributors
-`
-  ## Contributions 
-  ${data.contributions}
-`
-//if any tests are suggested by the user, they will display here
-`
-  ## Tests 
-  ${data.tests}
-`
-//recalling license data from above and displaying within the license section of read me file
-`
-  ## License 
-  ${data.license}
-  ${renderLicenseLink(license)}
-  ${renderLicenseSection(license)}
+## Questions
+If you have questions on this project you can find me on Github at https://github.com/${data.username}
+or please feel free to email me at ${data.email}
 
-  ## Questions
-  If you have questions on this project you can find me on Github at https://github.com/${data.username}
-  or please feel free to email me at ${data.email}
-
-  `
+`
 }
 
 module.exports = generateMarkdown;

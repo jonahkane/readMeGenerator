@@ -1,7 +1,9 @@
+// these are the packages that are required for the application to function properly
 const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
+// creating an array of questions, or prompts, that the uswer will see when they initialize the app
 const questions = [{
     type: 'input',
     message: 'What is the title of your project?',
@@ -46,7 +48,7 @@ const questions = [{
 {
     type: "input",
     message: "Are there any additional contributors to this project? (If so, please list them)",
-    name: "contribute"
+    name: "contributions"
 },
 {
     type:'input',
@@ -65,16 +67,15 @@ const questions = [{
 },
 ];
 
-
+//creating a function that will write data to our read me file - the file will be called "newREADME.md"
 const fileName = "newREADME.md"
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>{
         err ? console.error(err) : console.log('Commit logged!')
-
     })
 }
 
-// TODO: Create a function to initialize app
+// function that will initialize app
 function init() {
 inquirer.prompt(questions) 
 .then(function(data){
