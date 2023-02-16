@@ -1,7 +1,8 @@
+// this function is taking the data that is collected from user propmts/inputs and starts to print it to our new read me file
 function generateMarkdown(data) {
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// here we are taking the license that is selected by the user and pulling the badge or icon that corresponds to that license. 
+//it will then be displayed on the read me document. If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
 if (license === "None") {
@@ -44,8 +45,8 @@ if (license === "None") {
 
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// same as above, taking the license that is selected by the uswer, we then pull the URL that corresponds to that license and display it on the read me document.  
+// This link can be clicked by the uswer to get more information about the license chosen.  If there is no license, return an empty string
 function renderLicenseLink(license) {
 
   if (license === "None") {
@@ -87,8 +88,8 @@ function renderLicenseLink(license) {
   
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// once more, we are taking the license data input by the user, and pulling a short description of the license to display on the read me document. 
+//If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "None") {
     return ``;
@@ -120,45 +121,62 @@ function renderLicenseSection(license) {
 
 }
 
-// TODO: Create a function to generate markdown for README
-// function generateMarkdown(data) {
   const license = `${data.license}`;
 
-  return `# ${data.title}
-
-${renderLicenseBadge(license)}
-  ## Description 
-
- ${data.description}
+  //here is where we truly start to generate the read me document.  the hash tags, pound signs, or octothropes are headers for the document.  
+  // one hashtag by itself is used for the title - similar to an H1 tag in HTML
+  // two consecutive hashtags are sub headings within the document, similar to an H2, H3 etc.
+  return `# ${data.title}`
+// i wanted the license badge to be at the top of the page for easy visibility
+`${renderLicenseBadge(license)}
+  ## Description` 
+//here we are creating a sub heading of discription and then will import the data entered by the user in the initial prompts
+` ${data.description}
  
-  ## Table of contents 
-
+  ## Table of contents` 
+// the table of contents is optional in most applications but it was required for this project.  each item within the table of contents is clickable
+//upon clicking, it will scroll to that section of the page for easy viewing
+  `
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribute](#contribute)
+  - [Contributions](#contributions)
   - [Tests](#tests)
   - [License](#license)
   - [Questions](#questions)
   
-  ## Installation
-  ${data.installation}
-
-  ## Usage
-  ${data.usage} \n
-  here is a great place for you to upload screen shots or even a screen record of your application.  But remember to delete this line of text first
+  ## Installation`
   
+  //instructions that are entered by the user will display here when generated
+  `${data.installation}
 
-  ## Contribute 
-  ${data.contribute}
+  ## Usage`
 
+  
+  //instructions on how to use the app, entered by the user, will display here.  i have also added a few lines of text and symbols here to draw attention to the user
+  // this is where screen shots and any sort of screen recording video should be entered into the finished read me file.
+`${data.usage} \n
+  ******************************************
+  \n
+  here is a great place for you to upload screen shots or even a screen record of your application.  But remember to delete this line of text first
+  \n
+  ******************************************
+`
+// section for users entry of any additional contributors
+`
+  ## Contributions 
+  ${data.contributions}
+`
+//if any tests are suggested by the user, they will display here
+`
   ## Tests 
   ${data.tests}
-
+`
+//recalling license data from above and displaying within the license section of read me file
+`
   ## License 
   ${data.license}
   ${renderLicenseLink(license)}
   ${renderLicenseSection(license)}
-  - Please refer to the license information in the repo if applicable.
 
   ## Questions
   If you have questions on this project you can find me on Github at https://github.com/${data.username}

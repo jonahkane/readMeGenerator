@@ -1,10 +1,7 @@
-// TODO: Include packages needed for this application
-// require 
 const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
 const questions = [{
     type: 'input',
     message: 'What is the title of your project?',
@@ -12,7 +9,7 @@ const questions = [{
 },  
 {
     type:'input',
-    message:"Please write a short description of your project",
+    message:"Please write a short description of your project.",
     name: "description"
 },
 {
@@ -22,7 +19,7 @@ const questions = [{
 },
 {
     type: "input",
-    message: "What does the user need to know about using the repository?",
+    message: "How will someobody make use of this project?",
     name: "usage"
 },
 
@@ -48,12 +45,12 @@ const questions = [{
 },
 {
     type: "input",
-    message: "What does the user need to know about contributing to the repository?",
+    message: "Are there any additional contributors to this project? (If so, please list them)",
     name: "contribute"
 },
 {
     type:'input',
-    message: "What command should be used to run tests? For example: npm run test",
+    message: "What command should be used to run tests? For example: npm run test.",
     name: "tests"
 },
 {
@@ -68,10 +65,8 @@ const questions = [{
 },
 ];
 
-// refer to read me file "when i..."
 
 const fileName = "newREADME.md"
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>{
         err ? console.error(err) : console.log('Commit logged!')
