@@ -32,26 +32,22 @@ const questions = [{
 },
 {
     type:'input',
-    message: "What command should be run to run tests?",
-    name: "npm run test"
+    message: "What command should be run to run tests? For example: npm run test",
+    name: "tests"
 },
 {
     type:'list',
     message: "Which license do you want your project to have?",
     name: "license",
     choices: [
-        "MIT",
-        "Unlicense",
-        "Apache 2.0",
-        "GNU v3",
-        "BSD 3-Clause",
-        "Mozilla Public License 2.0"
+        "Apache License 2.0",
+        "GNU General Public License v3.0",
+        "MIT License",
+        "Boost Software License 1.0",
+        "Eclipse Public License 2.0",
+        "The Unlicense",
     ]
 },
-
-
-
-
 {
     type:'input',
     message: "what is your GitHUb user name?",
