@@ -1,10 +1,9 @@
-# Cool Calendar
+# README.md Generator
 
-[![Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  *****somehow need to get the license badge to appear here
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
   ## Description 
 
- daily planner that allows the user to add events 
+ This generator will be utilized to create a professional looking readme.md file when creating new repos 
  
   ## Table of contents 
 
@@ -16,21 +15,24 @@
   - [Questions](#questions)
   
   ## Installation
-  no - but maybe npm i 
+  install with npm i command
 
   ## Usage
-  use it how you want to.
+  launch the generator with the node index.js command and follow the prompts.  at the end, cehck the generated read me file adn add any necessary  images or videos in the appliable spaces  
+
+  here is a great place for you to upload screen shots or even a screen record of your application.  But remember to delete this line of text first
+  
 
   ## Contribute 
-  this program was written entirely by me, jonah kane, but with the help of tutoring sessions, google, UofM bootcamp course/tas and help from aother students too
+  this is a demo only, no additional contributions necessary
 
   ## Tests 
-  npm run test is a good idea to use
+  npm run test
 
   ## License 
-  Apache License 2.0
-  (https://opensource.org/licenses/Apache-2.0)
-  A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+  MIT License
+  (https://opensource.org/licenses/MIT)
+  A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
   - Please refer to the license information in the repo if applicable.
 
   ## Questions
