@@ -1,9 +1,11 @@
-# help me
+# 123
 
-  ## description 
-  //somehow need to get the license badge to appear here
-  describe it
-  ## table of contents 
+  ## Description 
+ - *****somehow need to get the license badge to appear here
+
+ - 321
+ 
+  ## Table of contents 
 
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,20 +14,23 @@
   - [License](#license)
   - [Questions](#questions)
   
-  ## instllation
-  install it
-  ## usage
-  using it
-  ## credits 
-  contribute 
-  ## license 
+  ## Instllation
+  456
+
+  ## Usage
+  654
+
+    ## License 
   MIT License
-  ## how to contribute 
-  contribute 
-  ## tests 
-  test it
+
+  ## Contributing individuals 
+  789
+
+  ## Tests 
+  987
+
   ## Questions
-  If you have questions on this project you can find me on Github at https://github.com/jonahkane
-  or please feel free to email me at jonahtkane@gmail.com
+  If you have questions on this project you can find me on Github at https://github.com/741
+  or please feel free to email me at 147
 
   

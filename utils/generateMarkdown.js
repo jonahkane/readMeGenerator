@@ -14,10 +14,10 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  - *****somehow need to get the license badge to appear here
   ## Description 
-  *****somehow need to get the license badge to appear here
 
-  ${data.description}
+ - ${data.description}
  
   ## Table of contents 
 
@@ -28,20 +28,20 @@ function generateMarkdown(data) {
   - [License](#license)
   - [Questions](#questions)
   
-  ## Instllation
-  ${data.installation}
+  ## Installation
+  - ${data.installation}
 
   ## Usage
-  ${data.usage}
+  - ${data.usage}
 
-    ## License 
-  ${data.license}
+  ## License 
+  - ${data.license}
 
   ## Contributing individuals 
-  ${data.contribute}
+  - ${data.contribute}
 
   ## Tests 
-  ${data.tests}
+  - ${data.tests}
 
   ## Questions
   If you have questions on this project you can find me on Github at https://github.com/${data.username}
