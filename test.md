@@ -1,9 +1,9 @@
 # 123
 
+  - *****somehow need to get the license badge to appear here
   ## Description 
- - *****somehow need to get the license badge to appear here
 
- - 321
+ - 456
  
   ## Table of contents 
 
@@ -14,23 +14,23 @@
   - [License](#license)
   - [Questions](#questions)
   
-  ## Instllation
-  456
+  ## Installation
+  - 789
 
   ## Usage
-  654
+  - 123
 
-    ## License 
-  MIT License
+  ## License 
+  - MIT License
 
   ## Contributing individuals 
-  789
+  - 456
 
   ## Tests 
-  987
+  - 789
 
   ## Questions
-  If you have questions on this project you can find me on Github at https://github.com/741
-  or please feel free to email me at 147
+  If you have questions on this project you can find me on Github at https://github.com/123
+  or please feel free to email me at 456
 
   
