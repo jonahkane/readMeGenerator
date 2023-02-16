@@ -42,7 +42,6 @@ const questions = [{
         "Eclipse Public License 2.0",
         "GNU Affero General Public License v3.0",
         "GNU General Public License v2.0",
-        "GNU Lesser General Publice License v2.1",
         "Mozilla Public License 2.0",
         "The Unlicense",
     ]
