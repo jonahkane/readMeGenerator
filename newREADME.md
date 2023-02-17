@@ -17,17 +17,15 @@ This app will prompt the user for inputs and then will take that data and displa
 
 ## Installation
 
-Yes. The user must install the inquirer package with the following command: npm i
+yes - the user must install node, inquirer, and npm
 
 ## Usage
 
-The uswer will first launch this app by opening within their CLI terminal. after installing the inquirer package they will initialize the app by running node index.js. the application will then ask the user a few questions that are free form entry. the uswer will also be asked which license they want to attach to their project. this input will display a list of options that the user will be able to select by pressing the arrow keys on their keyboard.
+The user will first launch this app by opening within their CLI terminal. after installing the inquirer package they will initialize the app by running node index.js. the application will then ask the user a few questions that are free form entry. the uswer will also be asked which license they want to attach to their project. this input will display a list of options that the user will be able to select by pressing the arrow keys on their keyboard.
 
 ---
 
-here is a great place for you to upload screen shots or even a screen record of your application. But remember to delete this line of text first
-
----
+## [Demo Video](assets/ReadME%20Demo.mp4)
 
 ## Contributions
 

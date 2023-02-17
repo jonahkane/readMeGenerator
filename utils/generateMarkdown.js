@@ -155,8 +155,8 @@ ${data.contributions}
 ## Tests 
 ${data.tests}
 ## License 
-${data.license}
-${renderLicenseLink(license)}
+${data.license}\n
+${renderLicenseLink(license)}\n
 ${renderLicenseSection(license)}
 
 ## Questions
